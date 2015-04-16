@@ -6,14 +6,22 @@ using System.Threading.Tasks;
 
 namespace TDDLab2
 {
-    public class personName
+    public class person
     {
         private string p;
+        private DateTime dateTime;
 
-        public personName(string p)
+        public person(string p)
         {
            
             this.p = p;
+        }
+
+        public person(string p, DateTime dateTime)
+        {
+            // TODO: Complete member initialization
+            this.p = p;
+            this.dateTime = dateTime;
         }
 
         public string Name
@@ -23,5 +31,9 @@ namespace TDDLab2
             set { value = "John Doe"; }
 
         }
+
+        public DateTime birthday { get; set; }
     }
+
+
 }
