@@ -44,8 +44,16 @@ namespace TDDLab2
 
         public string SocialSecurityNumber { get { return socNumber; } }
 
-        public int Age { get; set; }
+        public int Age
+        {
+            get
+            {
+
+                var age = DateTime.Now.Year - birthday.Year;
+                return age;
+            }
+        }
     }
 
-
+    
 }
