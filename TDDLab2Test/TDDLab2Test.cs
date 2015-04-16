@@ -41,7 +41,14 @@ namespace TDDLab2Test1
 
         }
 
+        [Fact]
+        public void CanSortByLastName()
+        {
+            var firstPerson = new person("Abigal Addams", DateTime.Now, "111223333");
+            var secondPerson = new person("John Smith", DateTime.Now, "111223333");
 
+            Assert.Equal(-1, firstPerson.CompareTo(secondPerson));
+        }
     }
 }
 

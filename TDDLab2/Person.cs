@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TDDLab2
 {
-    public class person
+    public class person : IComparable<person>
     {
         private DateTime dateTime;
         private string personTestName;
@@ -45,6 +45,11 @@ namespace TDDLab2
         public string SocialSecurityNumber { get { return socNumber; } }
 
         public int Age { get; set; }
+
+        public int CompareTo(person other)
+        {
+            throw new NotImplementedException();
+        }
     }
 
 
