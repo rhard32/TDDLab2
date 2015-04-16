@@ -28,7 +28,7 @@ namespace TDDLab2
 
         public DateTime birthday
         {
-
+            get { return dateTime; }
 
         }   
             
