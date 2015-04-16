@@ -8,13 +8,19 @@ namespace TDDLab2
 {
     public class person
     {
+<<<<<<< HEAD
         private string p;
         private DateTime dateTime;
 
         public person(string p)
+=======
+        private string personTestName;
+
+        public personName(string personTestName)
+>>>>>>> origin/master
         {
            
-            this.p = p;
+            this.personTestName = personTestName;
         }
 
         public person(string p, DateTime dateTime)
@@ -26,7 +32,7 @@ namespace TDDLab2
 
         public string Name
         {
-            get { return p; }
+            get { return personTestName; }
 
             set { value = "John Doe"; }
 

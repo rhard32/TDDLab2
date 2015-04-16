@@ -8,8 +8,13 @@ using TDDLab2;
 
 
 namespace TDDLab2Test1
+<<<<<<< HEAD
 {
     //Create String Name
+=======
+{ 
+    //Create Test for Person Name
+>>>>>>> origin/master
     public class Name
     {
         [Fact]
