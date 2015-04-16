@@ -18,20 +18,20 @@ namespace TDDLab2Test1
             var personTestName = new person("John Doe", DateTime.Now, "123456789");
             Assert.Equal("John Doe", personTestName.Name);
         }
-    [Fact]
+        [Fact]
         public void birthdayTest()
-    {
-        var birthdayTest = new person("John Doe", new DateTime(68, 09, 12));
-        Assert.Equal(new DateTime(68, 09, 12), birthdayTest.birthday);
-    }
+        {
+            var birthdayTest = new person("John Doe", new DateTime(68, 09, 12));
+            Assert.Equal(new DateTime(68, 09, 12), birthdayTest.birthday);
+        }
 
-    [Fact]
+        [Fact]
         public void socialSecNumbTest()
-    {
-        var personTestName = new person("John Doe", DateTime.Now, "123456789");
-        Assert.Equal( "123456789", personTestName.SocialSecurityNumber);
+        {
+            var personTestName = new person("John Doe", DateTime.Now, "123456789");
+            Assert.Equal("123456789", personTestName.SocialSecurityNumber);
 
-    }
+        }
 
         [Fact]
         public void ComputeThePersonsAge()
@@ -40,6 +40,8 @@ namespace TDDLab2Test1
             Assert.Equal(25, personTestName.Age);
 
         }
+
+
     }
-    }
+}
 
