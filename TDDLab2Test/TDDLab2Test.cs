@@ -32,6 +32,14 @@ namespace TDDLab2Test1
         Assert.Equal( "123456789", personTestName.SocialSecurityNumber);
 
     }
+
+        [Fact]
+        public void ComputeThePersonsAge()
+        {
+            var personTestName = new person("John Doe", new DateTime(1990, 3, 1), "123456789");
+            Assert.Equal(25, personTestName.Age);
+
+        }
     }
     }
 

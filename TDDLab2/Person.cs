@@ -43,6 +43,8 @@ namespace TDDLab2
 
 
         public string SocialSecurityNumber { get { return socNumber; } }
+
+        public int Age { get; set; }
     }
 
 
