@@ -44,13 +44,17 @@ namespace TDDLab2
 
         public string SocialSecurityNumber { get { return socNumber; } }
 
-        public int Age { get; set; }
-
+        public int Age
+        {
+            get
+            {
+                var age = DateTime.Now.Year - birthday.Year;
+                return age;
+            }
+        }
         public int CompareTo(person other)
         {
             throw new NotImplementedException();
         }
     }
-
-
 }
