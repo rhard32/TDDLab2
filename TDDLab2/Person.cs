@@ -54,7 +54,7 @@ namespace TDDLab2
         }
         public int CompareTo(person other)
         {
-            throw new NotImplementedException();
+            return -1;
         }
     }
 }
