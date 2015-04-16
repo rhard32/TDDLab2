@@ -26,7 +26,12 @@ namespace TDDLab2
 
         }
 
-        public DateTime birthday { get; set; }
+        public DateTime birthday
+        {
+
+
+        }   
+            
     }
 
 
