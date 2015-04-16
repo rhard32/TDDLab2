@@ -12,10 +12,16 @@ namespace TDDLab2
 
         public personName(string p)
         {
-            // TODO: Complete member initialization
+           
             this.p = p;
         }
 
-        public string Name { get; set; }
+        public string Name
+        {
+            get { return p; }
+
+            set { value = "John Doe"; }
+
+        }
     }
 }

@@ -8,7 +8,7 @@ using TDDLab2;
 
 namespace TDDLab2Test1
 { 
-
+    //Create String Name
     public class Name
     {
         [Fact]
