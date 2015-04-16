@@ -10,6 +10,8 @@ namespace TDDLab2
     {
         private DateTime dateTime;
         private string personTestName;
+        private string p1;
+        private string p2;
 
        public person(string personTestName, DateTime dateTime)
         {
@@ -17,6 +19,14 @@ namespace TDDLab2
             this.personTestName = personTestName;
             this.dateTime = dateTime;
         }
+
+       public person(string p1, DateTime dateTime, string p2)
+       {
+           // TODO: Complete member initialization
+           this.p1 = p1;
+           this.dateTime = dateTime;
+           this.p2 = p2;
+       }
 
         public string Name
         {
@@ -30,8 +40,10 @@ namespace TDDLab2
         {
             get { return dateTime; }
 
-        }   
-            
+        }
+
+
+        public string SocialSecurityNumber { get; set; }
     }
 
 
