@@ -8,25 +8,13 @@ namespace TDDLab2
 {
     public class person
     {
-<<<<<<< HEAD
-        private string p;
         private DateTime dateTime;
-
-        public person(string p)
-=======
         private string personTestName;
 
-        public personName(string personTestName)
->>>>>>> origin/master
-        {
-           
-            this.personTestName = personTestName;
-        }
-
-        public person(string p, DateTime dateTime)
+       public person(string personTestName, DateTime dateTime)
         {
             // TODO: Complete member initialization
-            this.p = p;
+            this.personTestName = personTestName;
             this.dateTime = dateTime;
         }
 

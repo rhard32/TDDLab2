@@ -8,19 +8,14 @@ using TDDLab2;
 
 
 namespace TDDLab2Test1
-<<<<<<< HEAD
 {
-    //Create String Name
-=======
-{ 
     //Create Test for Person Name
->>>>>>> origin/master
     public class Name
     {
         [Fact]
         public void TddLab2Test()
         {
-            var personTestName = new person("John Doe");
+            var personTestName = new person("John Doe", DateTime.Now);
             Assert.Equal("John Doe", personTestName.Name);
         }
     [Fact]
