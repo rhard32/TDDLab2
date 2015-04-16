@@ -8,17 +8,17 @@ namespace TDDLab2
 {
     public class personName
     {
-        private string p;
+        private string personTestName;
 
-        public personName(string p)
+        public personName(string personTestName)
         {
            
-            this.p = p;
+            this.personTestName = personTestName;
         }
 
         public string Name
         {
-            get { return p; }
+            get { return personTestName; }
 
             set { value = "John Doe"; }
 
